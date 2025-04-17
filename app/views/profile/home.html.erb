@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="en">
+   
+   <body>
+       <!-- creates the body of the webpage using jumbotron and container bootstrap functions
+             links a profile image and defines text -->
+       <div class="container">
+           <div class="container text-center mt-2">
+               <h1> Coco Carragher </h1>
+               <!-- Using image_tag helper to display the image -->
+               <%= image_tag("profile_image.jpg", width: "300", height: "300", alt: "Profile Image") %>
+           </div>
+           <div class="jumbotron bg-warning">
+               <p id="paragraph1" class="lead">I am a senior at Connecticut College, majoring in Economics and minoring in Computer Science. I am from New York City and compete on the sailing team at Conn.</p>
+               <hr class="my-4">
+               <p>I have always enjoyed volunteering at animal shelters and used my global local engagement through the ENT pathway to volunteer with cats while in Spain.</p>
+               <br>
+           </div>
+       </div>
+
+        <!-- creates footer -->
+       <footer class="footer text-center">
+         <div class="container">
+           <span class="text-muted">Thank you for visiting my page. Come again soon.</span> <i class="bi bi-egg-fill"></i>
+         </div>
+       </footer>
+
+       <script src="jquery.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+       <script src="fontawesome-free-5.5.0-web/js/all.min.js"></script>
+       <script src="javascript.js"></script>
+
+   </body>
+</html>
